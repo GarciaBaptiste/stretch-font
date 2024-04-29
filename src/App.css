@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.word {
+  display: flex;
+  width: calc(100vw - 100px);
+  margin: 50px;
+  gap: 25px;
+}
+
+.letter {
+  display: grid;
+  height: 100px;
+}
+
+.T {
+  flex: 0.5;
+  grid-template-columns: 1fr 15px 1fr;
+  grid-template-rows: 15px 1fr 15px;
+}
+
+.E {
+  flex: 0.4;
+  grid-template-columns: 15px 1fr 15px;
+  grid-template-rows: 15px 1fr 15px 1fr 15px;
+}
+
+.S {
+  flex: 0.5;
+}
+
+.letter-part {
+  background: black;
+}
